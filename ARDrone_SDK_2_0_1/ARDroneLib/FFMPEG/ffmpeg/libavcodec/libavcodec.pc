@@ -1,0 +1,14 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=/files/ARDrone_SDK_2_0_1/ARDroneLib/FFMPEG/ffmpeg/../../Soft/Build/targets_versions//ffmpeg_x86_64_PROD_MODE_Linux_6.8.0-31-lowlatency_GNU_Linux_usrbingcc_5.4.0
+includedir=/files/ARDrone_SDK_2_0_1/ARDroneLib/FFMPEG/ffmpeg/../Includes
+
+Name: libavcodec
+Description: FFmpeg codec library
+Version: 53.7.0
+Requires: libavutil = 51.9.1
+Requires.private: 
+Conflicts:
+Libs: -L${libdir} -lavcodec -lSDL -lm -pthread -lz
+Libs.private: 
+Cflags: -I${includedir}
