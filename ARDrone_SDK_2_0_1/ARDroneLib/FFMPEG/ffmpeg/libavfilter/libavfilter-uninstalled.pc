@@ -8,5 +8,5 @@ Description: FFmpeg video filtering library
 Version: 2.23.0
 Requires: 
 Conflicts:
-Libs: ${libdir}/libavfilter.a -lSDL -lm -pthread -lz 
+Libs: ${libdir}/libavfilter.a -lm -lbz2 -lz 
 Cflags: -I${includedir}
