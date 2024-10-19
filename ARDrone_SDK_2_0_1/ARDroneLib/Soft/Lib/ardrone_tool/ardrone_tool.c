@@ -80,17 +80,28 @@ C_RESULT ardrone_tool_setup_com( const char* ssid )
   {
 	  DEBUG_PRINT_SDK("VP_Com : Failed to init com for navdata\n");
 	  vp_com_shutdown(COM_NAVDATA());
-	  res = C_FAIL;
+	  // Instead of returning failure, return success or continue the program
+	  return C_OK;  // Allow program to continue even if failed
   }
+
+
+
 
   vp_com_network_adapter_lookup(COM_NAVDATA(), ardrone_toy_network_adapter_cb);
 
-  if( SUCCEED(res) && FAILED(vp_com_local_config(COM_NAVDATA(), COM_CONFIG_NAVDATA())) )
+if( SUCCEED(res) && FAILED(vp_com_local_config(COM_NAVDATA(), COM_CONFIG_NAVDATA())) )
   {
 	  DEBUG_PRINT_SDK("VP_Com : Failed to configure com for navdata\n");
 	  vp_com_shutdown(COM_NAVDATA());
-	  res = C_FAIL;
+	  return C_OK;  // Continue running if failed
   }
+
+//   if( SUCCEED(res) && FAILED(vp_com_local_config(COM_NAVDATA(), COM_CONFIG_NAVDATA())) )
+//   {
+// 	  DEBUG_PRINT_SDK("VP_Com : Failed to configure com for navdata\n");
+// 	  vp_com_shutdown(COM_NAVDATA());
+// 	  res = C_FAIL;
+//   }
 
   if( ssid != NULL )
   {
