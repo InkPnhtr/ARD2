@@ -150,28 +150,28 @@ DEFINE_THREAD_ROUTINE( navdata_update, nomParams )
 	
 		if( navdata_read == NULL )
       {
-        res = C_FAIL;
+        res = C_OK;
         continue;
       }
 
       size = NAVDATA_MAX_SIZE;
       navdata->header = 0; // Soft reset
       res = navdata_read( (void*)&navdata_socket, &navdata_buffer[0], &size );
-#ifdef _WIN32	
-	  if( size <= 0 )
-#else
-	  if( size == 0 )
-#endif
-		{
-			// timeout
-			PRINT("Timeout when reading navdatas - resending a navdata request on port %i\n",NAVDATA_PORT);
-			/* Resend a request to the drone to get navdatas */
-			ardrone_navdata_open_server();
-			sequence = NAVDATA_SEQUENCE_DEFAULT-1;
-			num_retries++;
-		} 
-		else
-         num_retries = 0;
+// #ifdef _WIN32	
+// 	  if( size <= 0 )
+// #else
+// 	  if( size == 0 )
+// #endif
+// 		{
+// 			// timeout
+// 			PRINT("Timeout when reading navdatas - resending a navdata request on port %i\n",NAVDATA_PORT);
+// 			/* Resend a request to the drone to get navdatas */
+// 			ardrone_navdata_open_server();
+// 			sequence = NAVDATA_SEQUENCE_DEFAULT-1;
+// 			num_retries++;
+// 		} 
+// 		else
+//          num_retries = 0;
 
       if( VP_SUCCEEDED( res ) )
       {
