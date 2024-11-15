@@ -27,13 +27,14 @@ RUN apt-get update && apt-get install -y \
     x11-apps\
     x11-utils\
     x11vnc\
+    fluxbox\
     gcc-multilib
 
 # Start Xvfb when the container starts
-CMD sudo chown root:root /tmp/.X11-unix \
-    sudo Xvfb :99 -screen 0 1024x768x16 & \
-    Xvfb :99 -screen 0 1024x768x16 & \
-    export DISPLAY=:99 && \
-    export DISPLAY=:99 \
-    ps aux | grep Xvfb \
-    tail -f /dev/null \
+# CMD sudo chown root:root /tmp/.X11-unix \
+#     sudo Xvfb :99 -screen 0 1024x768x16 & \
+#     Xvfb :99 -screen 0 1024x768x16 & \
+#     export DISPLAY=:99 && \
+#     export DISPLAY=:99 \
+#     ps aux | grep Xvfb \
+#     tail -f /dev/null \

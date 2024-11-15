@@ -418,5 +418,3 @@ else
 	void ardrone_tool_display_cmd_line_custom( void ) {}
 	bool_t ardrone_tool_parse_cmd_line_custom( const char* cmd ) { return TRUE; }
 #endif
-
-

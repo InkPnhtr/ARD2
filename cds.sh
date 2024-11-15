@@ -11,5 +11,6 @@ cd Build
 cd Release
 
 Xvfb :99 -screen 0 1024x768x16 &
+Xvfb :99 -screen 0 1920x1080x24 &
 export DISPLAY=:99
 ps aux | grep Xvfb
