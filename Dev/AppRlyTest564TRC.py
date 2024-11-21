@@ -11,8 +11,8 @@ import time
 
 secs=0
 loopcount=0
-AppLstnHost = '192.168.0.94'
-#AppLstnHost = "127.0.0.1"
+#AppLstnHost = '192.168.0.94'
+AppLstnHost = "127.0.0.1"
 AppTcpftpPrtLst = 5561
 AppTcpCtrPrtLst = 5569
 AppTcpVidRecPrtLst = 5563
@@ -24,8 +24,8 @@ AppUdpCtrlPrtLst = 5554
 AppUdpNavDtaPrtLst = 5556
 AppUdpRwCapLst = 5557
 
-FlRlyTgtHost = "192.168.0.94"
-#FlRlyTgtHost = "127.0.0.1"
+#FlRlyTgtHost = "192.168.0.94"
+FlRlyTgtHost = "127.0.0.1"
 FlRlyTcpftpPrtTrgt = 5561
 AppTcpCtrPrtTrgt = 5569
 AppTcpVidRecPrtTrgt = 5563
@@ -44,26 +44,25 @@ TgtTcpSkt= []
 TgtUdpSkt= []
 
 def main():
-    thread.start_new_thread(server, () )
-    lock = thread.allocate_lock()
-    lock.acquire()
-    lock.acquire()
+	thread.start_new_thread(server, () )
+	lock = thread.allocate_lock()
+	lock.acquire()
+	lock.acquire()
 
 def server(*settings):
-    try:
-	def TcpLsn(LstnHost, TcpPrtLst, TgtHost, TgtTcpPrt):
-		global TcpSktLst
-		global TgtTcpSkt
-
-		global I
-		print I
-		TcpSktLst.append(socket.socket(socket.AF_INET, socket.SOCK_STREAM))
-		TcpSktLst[I].bind((LstnHost, TcpPrtLst)) # listen
-		TcpSktLst[I].listen(5)
-		print "*** listening tcp on %i %s:%i" % (I, LstnHost, TcpPrtLst )
-		TgtTcpSkt.append(socket.socket(socket.AF_INET, socket.SOCK_STREAM))
-		TgtTcpSkt[I].connect((TgtHost, TgtTcpPrt))
-		I = I+1
+	try:
+		def TcpLsn(LstnHost, TcpPrtLst, TgtHost, TgtTcpPrt):
+			global TcpSktLst
+			global TgtTcpSkt
+			global I
+			print I
+			TcpSktLst.append(socket.socket(socket.AF_INET, socket.SOCK_STREAM))
+			TcpSktLst[I].bind((LstnHost, TcpPrtLst)) # listen
+			TcpSktLst[I].listen(5)
+			print "*** listening tcp on %i %s:%i" % (I, LstnHost, TcpPrtLst )
+			TgtTcpSkt.append(socket.socket(socket.AF_INET, socket.SOCK_STREAM))
+			TgtTcpSkt[I].connect((TgtHost, TgtTcpPrt))
+			I = I+1
 
 #	TcpLsn(AppLstnHost, AppTcpftpPrtLst, FlRlyTgtHost, FlRlyTcpftpPrtTrgt)
 
@@ -131,17 +130,17 @@ def server(*settings):
 		thread.start_new_thread(UdpFwd, (UdpSktLst[y], TgtUdpSkt[y]))
 		#UdpFwd (UdpSktLst[y], TgtUdpSkt[y])
 
-    finally:
-        #thread.start_new_thread(server, () )
+	finally:
+		#thread.start_new_thread(server, () )
 	print'end'
 
 def forward(source, destination, description):
-    data = ' '
-    while data:
-        data = source.recv(1024)
-        print "fwdngTCP:%s: %s" % ( description, data )
-        if data:
-            destination.sendall(data)
+	data = ' '
+	while data:
+		data = source.recv(1024)
+		print "fwdngTCP:%s: %s" % ( description, data )
+		if data:
+			destination.sendall(data)
 #        else:
 #            source.shutdown(socket.SHUT_RD)
 #            destination.shutdown(socket.SHUT_WR)
@@ -204,7 +203,7 @@ def UdpFwd (UdpCSktLst, FlRlyUdpX):
 	print'oow ood'
 
 if __name__ == '__main__':
-    main()
+	main()
 
 
 	#print'error eo Try w '

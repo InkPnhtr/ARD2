@@ -5,9 +5,9 @@ import time
 import errno
 secs=0
 loopcount=0
-#AppLstnHost = "127.0.0.1"
+AppLstnHost = "127.0.0.1"
 #AppLstnHost = "192.168.43.238"
-AppLstnHost = '186.19.244.182'
+#AppLstnHost = '186.19.244.182'
 AppTcpftpPrtLst = 5581
 AppTcpCtrPrtLst = 5589
 AppTcpVidRecPrtLst = 5583

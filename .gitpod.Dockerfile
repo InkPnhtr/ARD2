@@ -28,7 +28,8 @@ RUN apt-get update && apt-get install -y \
     x11-utils\
     x11vnc\
     fluxbox\
-    gcc-multilib
+    gcc-multilib\
+    python2
 
 # Start Xvfb when the container starts
 # CMD sudo chown root:root /tmp/.X11-unix \
