@@ -2169,3 +2169,1402 @@ caught signal: 15
 X connection to :99 broken (explicit kill or server shutdown).
 
 Terminating WebSockets proxy (863)
+_XSERVTransmkdir: ERROR: euid != 0,directory /tmp/.X11-unix will not be created.
+24/11/2024 16:58:57 x11vnc version: 0.9.16 lastmod: 2019-01-05  pid: 604
+Warning: could not find self.pem
+Using local websockify at /workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC/utils/websockify/run
+Starting webserver and WebSockets proxy on port 6080
+24/11/2024 16:58:57 Using X display :99
+24/11/2024 16:58:57 rootwin: 0x50e reswin: 0x400001 dpy: 0xa4ebc10
+24/11/2024 16:58:57 
+24/11/2024 16:58:57 ------------------ USEFUL INFORMATION ------------------
+Failed to read: session.ignoreBorder
+Setting default value
+Failed to read: session.forcePseudoTransparency
+Setting default value
+Failed to read: session.colorsPerChannel
+Setting default value
+Failed to read: session.doubleClickInterval
+Setting default value
+Failed to read: session.tabPadding
+Setting default value
+Failed to read: session.styleOverlay
+Setting default value
+Failed to read: session.slitlistFile
+Setting default value
+Failed to read: session.appsFile
+Setting default value
+Failed to read: session.tabsAttachArea
+Setting default value
+Failed to read: session.cacheLife
+Setting default value
+Failed to read: session.cacheMax
+Setting default value
+Failed to read: session.autoRaiseDelay
+Setting default value
+Failed to read: session.ignoreBorder
+Setting default value
+Failed to read: session.forcePseudoTransparency
+Setting default value
+Failed to read: session.colorsPerChannel
+Setting default value
+Failed to read: session.doubleClickInterval
+Setting default value
+Failed to read: session.tabPadding
+Setting default value
+Failed to read: session.styleOverlay
+Setting default value
+Failed to read: session.slitlistFile
+Setting default value
+Failed to read: session.appsFile
+Setting default value
+Failed to read: session.tabsAttachArea
+Setting default value
+Failed to read: session.cacheLife
+Setting default value
+Failed to read: session.cacheMax
+Setting default value
+Failed to read: session.autoRaiseDelay
+Setting default value
+/workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC/utils/websockify/websockify/websocket.py:31: UserWarning: no 'numpy' module, HyBi protocol will be slower
+  warnings.warn("no 'numpy' module, HyBi protocol will be slower")
+WebSocket server settings:
+  - Listen on :6080
+  - Web server. Web root: /workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC
+  - No SSL/TLS support (no cert file)
+  - proxying from :6080 to localhost:5900
+Failed to read: session.screen0.opaqueMove
+Setting default value
+Failed to read: session.screen0.fullMaximization
+Setting default value
+Failed to read: session.screen0.maxIgnoreIncrement
+Setting default value
+Failed to read: session.screen0.maxDisableMove
+Setting default value
+Failed to read: session.screen0.maxDisableResize
+Setting default value
+Failed to read: session.screen0.workspacewarping
+Setting default value
+Failed to read: session.screen0.showwindowposition
+Setting default value
+Failed to read: session.screen0.autoRaise
+Setting default value
+Failed to read: session.screen0.clickRaises
+Setting default value
+Failed to read: session.screen0.defaultDeco
+Setting default value
+Failed to read: session.screen0.tab.placement
+Setting default value
+Failed to read: session.screen0.windowMenu
+Setting default value
+Failed to read: session.screen0.noFocusWhileTypingDelay
+Setting default value
+Failed to read: session.screen0.workspaces
+Setting default value
+Failed to read: session.screen0.edgeSnapThreshold
+Setting default value
+Failed to read: session.screen0.window.focus.alpha
+Setting default value
+Failed to read: session.screen0.window.unfocus.alpha
+Setting default value
+Failed to read: session.screen0.menu.alpha
+Setting default value
+Failed to read: session.screen0.menuDelay
+Setting default value
+Failed to read: session.screen0.tab.width
+Setting default value
+Failed to read: session.screen0.tooltipDelay
+Setting default value
+Failed to read: session.screen0.allowRemoteActions
+Setting default value
+Failed to read: session.screen0.clientMenu.usePixmap
+Setting default value
+Failed to read: session.screen0.tabs.usePixmap
+Setting default value
+Failed to read: session.screen0.tabs.maxOver
+Setting default value
+Failed to read: session.screen0.tabs.intitlebar
+Setting default value
+Failed to read: session.screen0.focusModel
+Setting default value
+Failed to read: session.screen0.tabFocusModel
+Setting default value
+Failed to read: session.screen0.focusNewWindows
+Setting default value
+Failed to read: session.screen0.focusSameHead
+Setting default value
+Failed to read: session.screen0.rowPlacementDirection
+Setting default value
+Failed to read: session.screen0.colPlacementDirection
+Setting default value
+Failed to read: session.screen0.windowPlacement
+Setting default value
+Failed to read: session.ignoreBorder
+Setting default value
+Failed to read: session.forcePseudoTransparency
+Setting default value
+Failed to read: session.colorsPerChannel
+Setting default value
+Failed to read: session.doubleClickInterval
+Setting default value
+Failed to read: session.tabPadding
+Setting default value
+Failed to read: session.styleOverlay
+Setting default value
+Failed to read: session.slitlistFile
+Setting default value
+Failed to read: session.appsFile
+Setting default value
+Failed to read: session.tabsAttachArea
+Setting default value
+Failed to read: session.cacheLife
+Setting default value
+Failed to read: session.cacheMax
+Setting default value
+Failed to read: session.autoRaiseDelay
+Setting default value
+Failed to read: session.screen0.opaqueMove
+Setting default value
+Failed to read: session.screen0.fullMaximization
+Setting default value
+Failed to read: session.screen0.maxIgnoreIncrement
+Setting default value
+Failed to read: session.screen0.maxDisableMove
+Setting default value
+Failed to read: session.screen0.maxDisableResize
+Setting default value
+Failed to read: session.screen0.workspacewarping
+Setting default value
+Failed to read: session.screen0.showwindowposition
+Setting default value
+Failed to read: session.screen0.autoRaise
+Setting default value
+Failed to read: session.screen0.clickRaises
+Setting default value
+Failed to read: session.screen0.defaultDeco
+Setting default value
+Failed to read: session.screen0.tab.placement
+Setting default value
+Failed to read: session.screen0.windowMenu
+Setting default value
+Failed to read: session.screen0.noFocusWhileTypingDelay
+Setting default value
+Failed to read: session.screen0.workspaces
+Setting default value
+Failed to read: session.screen0.edgeSnapThreshold
+Setting default value
+Failed to read: session.screen0.window.focus.alpha
+Setting default value
+Failed to read: session.screen0.window.unfocus.alpha
+Setting default value
+Failed to read: session.screen0.menu.alpha
+Setting default value
+Failed to read: session.screen0.menuDelay
+Setting default value
+Failed to read: session.screen0.tab.width
+Setting default value
+Failed to read: session.screen0.tooltipDelay
+Setting default value
+Failed to read: session.screen0.allowRemoteActions
+Setting default value
+Failed to read: session.screen0.clientMenu.usePixmap
+Setting default value
+Failed to read: session.screen0.tabs.usePixmap
+Setting default value
+Failed to read: session.screen0.tabs.maxOver
+Setting default value
+Failed to read: session.screen0.tabs.intitlebar
+Setting default value
+Failed to read: session.screen0.focusModel
+Setting default value
+Failed to read: session.screen0.tabFocusModel
+Setting default value
+Failed to read: session.screen0.focusNewWindows
+Setting default value
+Failed to read: session.screen0.focusSameHead
+Setting default value
+Failed to read: session.screen0.rowPlacementDirection
+Setting default value
+Failed to read: session.screen0.colPlacementDirection
+Setting default value
+Failed to read: session.screen0.windowPlacement
+Setting default value
+24/11/2024 16:58:58 X DAMAGE available on display, using it for polling hints.
+24/11/2024 16:58:58   To disable this behavior use: '-noxdamage'
+24/11/2024 16:58:58 
+24/11/2024 16:58:58   Most compositing window managers like 'compiz' or 'beryl'
+24/11/2024 16:58:58   cause X DAMAGE to fail, and so you may not see any screen
+24/11/2024 16:58:58   updates via VNC.  Either disable 'compiz' (recommended) or
+24/11/2024 16:58:58   supply the x11vnc '-noxdamage' command line option.
+24/11/2024 16:58:58 
+24/11/2024 16:58:58 Wireframing: -wireframe mode is in effect for window moves.
+24/11/2024 16:58:58   If this yields undesired behavior (poor response, painting
+24/11/2024 16:58:58   errors, etc) it may be disabled:
+24/11/2024 16:58:58    - use '-nowf' to disable wireframing completely.
+24/11/2024 16:58:58    - use '-nowcr' to disable the Copy Rectangle after the
+24/11/2024 16:58:58      moved window is released in the new position.
+24/11/2024 16:58:58   Also see the -help entry for tuning parameters.
+24/11/2024 16:58:58   You can press 3 Alt_L's (Left "Alt" key) in a row to 
+24/11/2024 16:58:58   repaint the screen, also see the -fixscreen option for
+24/11/2024 16:58:58   periodic repaints.
+24/11/2024 16:58:58 
+24/11/2024 16:58:58 XFIXES available on display, resetting cursor mode
+24/11/2024 16:58:58   to: '-cursor most'.
+24/11/2024 16:58:58   to disable this behavior use: '-cursor arrow'
+24/11/2024 16:58:58   or '-noxfixes'.
+24/11/2024 16:58:58 using XFIXES for cursor drawing.
+24/11/2024 16:58:58 GrabServer control via XTEST.
+24/11/2024 16:58:58 
+24/11/2024 16:58:58 Scroll Detection: -scrollcopyrect mode is in effect to
+24/11/2024 16:58:58   use RECORD extension to try to detect scrolling windows
+24/11/2024 16:58:58   (induced by either user keystroke or mouse input).
+24/11/2024 16:58:58   If this yields undesired behavior (poor response, painting
+24/11/2024 16:58:58   errors, etc) it may be disabled via: '-noscr'
+24/11/2024 16:58:58   Also see the -help entry for tuning parameters.
+24/11/2024 16:58:58   You can press 3 Alt_L's (Left "Alt" key) in a row to 
+24/11/2024 16:58:58   repaint the screen, also see the -fixscreen option for
+24/11/2024 16:58:58   periodic repaints.
+24/11/2024 16:58:58 
+24/11/2024 16:58:58 XKEYBOARD: number of keysyms per keycode 7 is greater
+24/11/2024 16:58:58   than 4 and 51 keysyms are mapped above 4.
+24/11/2024 16:58:58   Automatically switching to -xkb mode.
+24/11/2024 16:58:58   If this makes the key mapping worse you can
+24/11/2024 16:58:58   disable it with the "-noxkb" option.
+24/11/2024 16:58:58   Also, remember "-remap DEAD" for accenting characters.
+24/11/2024 16:58:58 
+24/11/2024 16:58:58 X FBPM extension not supported.
+Xlib:  extension "DPMS" missing on display ":99".
+24/11/2024 16:58:58 X display is not capable of DPMS.
+24/11/2024 16:58:58 --------------------------------------------------------
+24/11/2024 16:58:58 
+24/11/2024 16:58:58 Default visual ID: 0x21
+24/11/2024 16:58:58 Read initial data from X display into framebuffer.
+24/11/2024 16:58:58 initialize_screen: fb_depth/fb_bpp/fb_Bpl 24/32/7680
+24/11/2024 16:58:58 
+24/11/2024 16:58:58 X display :99 is 32bpp depth=24 true color
+24/11/2024 16:58:58 
+24/11/2024 16:58:58 Autoprobing TCP port 
+24/11/2024 16:58:58 Autoprobing selected TCP port 5900
+24/11/2024 16:58:58 Autoprobing TCP6 port 
+24/11/2024 16:58:58 Autoprobing selected TCP6 port 5900
+24/11/2024 16:58:58 listen6: bind: Address already in use
+24/11/2024 16:58:58 Not listening on IPv6 interface.
+24/11/2024 16:58:58 
+24/11/2024 16:58:58 Xinerama is present and active (e.g. multi-head).
+24/11/2024 16:58:58 Xinerama: number of sub-screens: 1
+24/11/2024 16:58:58 Xinerama: no blackouts needed (only one sub-screen)
+24/11/2024 16:58:58 
+24/11/2024 16:58:58 fb read rate: 1077 MB/sec
+24/11/2024 16:58:58 fast read: reset -wait  ms to: 10
+24/11/2024 16:58:58 fast read: reset -defer ms to: 10
+24/11/2024 16:58:58 The X server says there are 10 mouse buttons.
+24/11/2024 16:58:58 screen setup finished.
+24/11/2024 16:58:58 
+
+The VNC desktop is:      7b932de49461:0
+PORT=5900
+
+******************************************************************************
+Have you tried the x11vnc '-ncache' VNC client-side pixel caching feature yet?
+
+The scheme stores pixel data offscreen on the VNC viewer side for faster
+retrieval.  It should work with any VNC viewer.  Try it by running:
+
+    x11vnc -ncache 10 ...
+
+One can also add -ncache_cr for smooth 'copyrect' window motion.
+More info: http://www.karlrunge.com/x11vnc/faq.html#faq-client-caching
+
+Failed to read: session.screen0.slit.acceptKdeDockapps
+Setting default value
+Failed to read: session.screen0.slit.autoHide
+Setting default value
+Failed to read: session.screen0.slit.maxOver
+Setting default value
+Failed to read: session.screen0.slit.placement
+Setting default value
+Failed to read: session.screen0.slit.alpha
+Setting default value
+Failed to read: session.screen0.slit.onhead
+Setting default value
+Failed to read: session.screen0.slit.layer
+Setting default value
+Failed to read: session.screen0.toolbar.autoHide
+Setting default value
+Failed to read: session.screen0.toolbar.maxOver
+Setting default value
+Failed to read: session.screen0.toolbar.visible
+Setting default value
+Failed to read: session.screen0.toolbar.alpha
+Setting default value
+Failed to read: session.screen0.toolbar.layer
+Setting default value
+Failed to read: session.screen0.toolbar.onhead
+Setting default value
+Failed to read: session.screen0.toolbar.placement
+Setting default value
+Failed to read: session.screen0.toolbar.height
+Setting default value
+Failed to read: session.screen0.iconbar.mode
+Setting default value
+Failed to read: session.screen0.iconbar.alignment
+Setting default value
+Failed to read: session.screen0.iconbar.iconWidth
+Setting default value
+Failed to read: session.screen0.iconbar.iconTextPadding
+Setting default value
+Failed to read: session.screen0.iconbar.usePixmap
+Setting default value
+
+
+Navigate to this URL:
+
+    http://7b932de49461:6080/vnc.html?host=7b932de49461&port=6080
+
+Press Ctrl-C to exit
+
+
+24/11/2024 16:59:55 Got connection from client 127.0.0.1
+24/11/2024 16:59:55   other clients:
+24/11/2024 16:59:55 Got 'ws' WebSockets handshake
+24/11/2024 16:59:55 Hixie no longer supported
+24/11/2024 16:59:55 Client 127.0.0.1 gone
+24/11/2024 16:59:55 Statistics             events    Transmit/ RawEquiv ( saved)
+24/11/2024 16:59:55  TOTALS              :      0 |         0/        0 (  0.0%)
+24/11/2024 16:59:55 Statistics             events    Received/ RawEquiv ( saved)
+24/11/2024 16:59:55  TOTALS              :      0 |         0/        0 (  0.0%)
+24/11/2024 16:59:56 Got connection from client 127.0.0.1
+24/11/2024 16:59:56   other clients:
+24/11/2024 16:59:56 Got 'ws' WebSockets handshake
+24/11/2024 16:59:56 Hixie no longer supported
+24/11/2024 16:59:56 Client 127.0.0.1 gone
+24/11/2024 16:59:56 Statistics             events    Transmit/ RawEquiv ( saved)
+24/11/2024 16:59:56  TOTALS              :      0 |         0/        0 (  0.0%)
+24/11/2024 16:59:56 Statistics             events    Received/ RawEquiv ( saved)
+24/11/2024 16:59:56  TOTALS              :      0 |         0/        0 (  0.0%)
+24/11/2024 17:00:17 Got connection from client 127.0.0.1
+24/11/2024 17:00:17   other clients:
+24/11/2024 17:00:17 Got 'ws' WebSockets handshake
+24/11/2024 17:00:17 Hixie no longer supported
+24/11/2024 17:00:17 Client 127.0.0.1 gone
+24/11/2024 17:00:17 Statistics             events    Transmit/ RawEquiv ( saved)
+24/11/2024 17:00:17  TOTALS              :      0 |         0/        0 (  0.0%)
+24/11/2024 17:00:17 Statistics             events    Received/ RawEquiv ( saved)
+24/11/2024 17:00:17  TOTALS              :      0 |         0/        0 (  0.0%)
+127.0.0.1 - - [24/Nov/2024 17:02:38] 127.0.0.1: Plain non-SSL (ws://) WebSocket connection
+127.0.0.1 - - [24/Nov/2024 17:02:38] 127.0.0.1: Path: '/websockify'
+127.0.0.1 - - [24/Nov/2024 17:02:38] connecting to: localhost:5900
+24/11/2024 17:02:38 Got connection from client 127.0.0.1
+24/11/2024 17:02:38   other clients:
+24/11/2024 17:02:38 Normal socket connection
+24/11/2024 17:02:38 Disabled X server key autorepeat.
+24/11/2024 17:02:38   to force back on run: 'xset r on' (3 times)
+24/11/2024 17:02:38 incr accepted_client=1 for 127.0.0.1:50000  sock=10
+24/11/2024 17:02:38 Client Protocol Version 3.8
+24/11/2024 17:02:38 Protocol version sent 3.8, using 3.8
+24/11/2024 17:02:38 rfbProcessClientSecurityType: executing handler for type 1
+24/11/2024 17:02:38 rfbProcessClientSecurityType: returning securityResult for client rfb version >= 3.8
+24/11/2024 17:02:38 created   xdamage object: 0x400040
+24/11/2024 17:02:39 Pixel format for client 127.0.0.1:
+24/11/2024 17:02:39   32 bpp, depth 24, little endian
+24/11/2024 17:02:39   true colour: max r 255 g 255 b 255, shift r 0 g 8 b 16
+24/11/2024 17:02:39 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x00000032)
+24/11/2024 17:02:39 rfbProcessClientNormalMessage: ignoring unsupported encoding type tightPng
+24/11/2024 17:02:39 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x00000015)
+24/11/2024 17:02:39 Using image quality level 2 for client 127.0.0.1
+24/11/2024 17:02:39 Using JPEG subsampling 1, Q41 for client 127.0.0.1
+24/11/2024 17:02:39 Using compression level 2 for client 127.0.0.1
+24/11/2024 17:02:39 Enabling NewFBSize protocol extension for client 127.0.0.1
+24/11/2024 17:02:39 Enabling LastRect protocol extension for client 127.0.0.1
+24/11/2024 17:02:39 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEFE)
+24/11/2024 17:02:39 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEFB)
+24/11/2024 17:02:39 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFECC)
+24/11/2024 17:02:39 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC8)
+24/11/2024 17:02:39 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC7)
+24/11/2024 17:02:39 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFECD)
+24/11/2024 17:02:39 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xC0A1E5CE)
+24/11/2024 17:02:39 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x574D5664)
+24/11/2024 17:02:39 Enabling full-color cursor updates for client 127.0.0.1
+24/11/2024 17:02:39 Using tight encoding for client 127.0.0.1
+24/11/2024 17:02:40 client_set_net: 127.0.0.1  0.0004
+24/11/2024 17:02:40 copy_tiles: allocating first_line at size 61
+24/11/2024 17:02:48 created selwin: 0x400041
+24/11/2024 17:02:48 called initialize_xfixes()
+Failed to read: session.screen0.titlebar.left
+Setting default value
+Failed to read: session.screen0.titlebar.right
+Setting default value
+24/11/2024 17:03:47 client 1 network rate 101.8 KB/sec (4892.3 eff KB/sec)
+24/11/2024 17:03:47 client 1 latency:  178.0 ms
+24/11/2024 17:03:47 dt1: 0.0040, dt2: 0.7487 dt3: 0.1780 bytes: 67531
+24/11/2024 17:03:47 link_rate: LR_DIALUP - 177 ms, 101 KB/s
+24/11/2024 17:07:39 idle keyboard:   turning X autorepeat back on.
+127.0.0.1 - - [24/Nov/2024 17:13:02] 127.0.0.1: Plain non-SSL (ws://) WebSocket connection
+127.0.0.1 - - [24/Nov/2024 17:13:02] 127.0.0.1: Path: '/websockify'
+127.0.0.1 - - [24/Nov/2024 17:13:02] connecting to: localhost:5900
+24/11/2024 17:13:02 Got connection from client 127.0.0.1
+24/11/2024 17:13:02   other clients:
+24/11/2024 17:13:02      127.0.0.1
+24/11/2024 17:13:02 Normal socket connection
+24/11/2024 17:13:02 incr accepted_client=2 for 127.0.0.1:44352  sock=12
+24/11/2024 17:13:02 Client Protocol Version 3.8
+24/11/2024 17:13:02 Protocol version sent 3.8, using 3.8
+24/11/2024 17:13:03 rfbProcessClientSecurityType: executing handler for type 1
+24/11/2024 17:13:03 rfbProcessClientSecurityType: returning securityResult for client rfb version >= 3.8
+24/11/2024 17:13:03 active keyboard: turning X autorepeat off.
+24/11/2024 17:13:03 client_set_net: 127.0.0.1  0.0001
+24/11/2024 17:13:03 Pixel format for client 127.0.0.1:
+24/11/2024 17:13:03   32 bpp, depth 24, little endian
+24/11/2024 17:13:03   true colour: max r 255 g 255 b 255, shift r 0 g 8 b 16
+24/11/2024 17:13:03 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x00000032)
+24/11/2024 17:13:03 rfbProcessClientNormalMessage: ignoring unsupported encoding type tightPng
+24/11/2024 17:13:03 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x00000015)
+24/11/2024 17:13:03 Using image quality level 2 for client 127.0.0.1
+24/11/2024 17:13:03 Using JPEG subsampling 1, Q41 for client 127.0.0.1
+24/11/2024 17:13:03 Using compression level 2 for client 127.0.0.1
+24/11/2024 17:13:03 Enabling NewFBSize protocol extension for client 127.0.0.1
+24/11/2024 17:13:03 Enabling LastRect protocol extension for client 127.0.0.1
+24/11/2024 17:13:03 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEFE)
+24/11/2024 17:13:03 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEFB)
+24/11/2024 17:13:03 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFECC)
+24/11/2024 17:13:03 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC8)
+24/11/2024 17:13:03 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC7)
+24/11/2024 17:13:03 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFECD)
+24/11/2024 17:13:03 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xC0A1E5CE)
+24/11/2024 17:13:03 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x574D5664)
+24/11/2024 17:13:03 Enabling full-color cursor updates for client 127.0.0.1
+24/11/2024 17:13:03 Using tight encoding for client 127.0.0.1
+24/11/2024 17:13:12 client_count: 1
+24/11/2024 17:13:12 Client 127.0.0.1 gone
+24/11/2024 17:13:12 Statistics             events    Transmit/ RawEquiv ( saved)
+24/11/2024 17:13:12  ServerCutText       :      1 |         8/        8 (  0.0%)
+24/11/2024 17:13:12  FramebufferUpdate   :    859 |         0/        0 (  0.0%)
+24/11/2024 17:13:12  LastRect            :      7 |        84/       84 (  0.0%)
+24/11/2024 17:13:12  tight               :   1124 |    463570/ 17368900 ( 97.3%)
+24/11/2024 17:13:12  RichCursor          :      7 |      6164/     6164 (  0.0%)
+24/11/2024 17:13:12  TOTALS              :   1998 |    469826/ 17375156 ( 97.3%)
+24/11/2024 17:13:12 Statistics             events    Received/ RawEquiv ( saved)
+24/11/2024 17:13:12  PointerEvent        :    498 |      2988/     2988 (  0.0%)
+24/11/2024 17:13:12  FramebufferUpdate   :    859 |      8590/     8590 (  0.0%)
+24/11/2024 17:13:12  SetEncodings        :      1 |       100/      100 (  0.0%)
+24/11/2024 17:13:12  SetPixelFormat      :      1 |        20/       20 (  0.0%)
+24/11/2024 17:13:12  TOTALS              :   1359 |     11698/    11698 (  0.0%)
+24/11/2024 17:14:26 client 2 network rate 100.1 KB/sec (4837.2 eff KB/sec)
+24/11/2024 17:14:26 client 2 latency:  176.9 ms
+24/11/2024 17:14:26 dt1: 0.0044, dt2: 0.7553 dt3: 0.1769 bytes: 67174
+24/11/2024 17:14:26 link_rate: LR_DIALUP - 176 ms, 100 KB/s
+24/11/2024 17:18:04 idle keyboard:   turning X autorepeat back on.
+
+Terminating WebSockets proxy (614)
+In exit
+Terminating child 1268
+caught signal: 15
+X connection to :99 broken (explicit kill or server shutdown).
+Process Process-50:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC/utils/websockify/websockify/websockifyserver.py", line 683, in top_new_client
+    client = self.do_handshake(startsock, address)
+  File "/workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC/utils/websockify/websockify/websockifyserver.py", line 611, in do_handshake
+    self.RequestHandlerClass(retsock, address, self)
+  File "/workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC/utils/websockify/websockify/websockifyserver.py", line 87, in __init__
+    super().__init__(req, addr, server)
+  File "/usr/lib/python3.8/http/server.py", line 647, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC/utils/websockify/websockify/websockifyserver.py", line 297, in handle
+    super().handle()
+  File "/usr/lib/python3.8/http/server.py", line 427, in handle
+    self.handle_one_request()
+  File "/workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC/utils/websockify/websockify/websocketserver.py", line 57, in handle_one_request
+    super().handle_one_request()
+  File "/usr/lib/python3.8/http/server.py", line 415, in handle_one_request
+    method()
+  File "/workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC/utils/websockify/websockify/websocketserver.py", line 67, in _websocket_do_GET
+    self.handle_upgrade()
+  File "/workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC/utils/websockify/websockify/websockifyserver.py", line 203, in handle_upgrade
+    super().handle_upgrade()
+  File "/workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC/utils/websockify/websockify/websocketserver.py", line 92, in handle_upgrade
+    self.handle_websocket()
+  File "/workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC/utils/websockify/websockify/websockifyserver.py", line 241, in handle_websocket
+    self.new_websocket_client()
+  File "/workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC/utils/websockify/websockify/websocketproxy.py", line 125, in new_websocket_client
+    self.do_proxy(tsock)
+  File "/workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC/utils/websockify/websockify/websocketproxy.py", line 200, in do_proxy
+    ins, outs, excepts = select.select(rlist, wlist, [], 1)
+  File "/workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC/utils/websockify/websockify/websockifyserver.py", line 675, in do_SIGTERM
+    self.terminate()
+  File "/workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC/utils/websockify/websockify/websockifyserver.py", line 648, in terminate
+    raise self.Terminate()
+websockify.websockifyserver.WebSockifyServer.Terminate
+24/11/2024 17:42:14 deleted 60 tile_row polling images.
+extra[1] signal: -1
+XIO:  fatal IO error 11 (Resource temporarily unavailable) on X server ":99"
+      after 816187 requests (816187 known processed) with 0 events remaining.
+_XSERVTransmkdir: ERROR: euid != 0,directory /tmp/.X11-unix will not be created.
+Warning: could not find self.pem
+Using local websockify at /workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC/utils/websockify/run
+Starting webserver and WebSockets proxy on port 6080
+25/11/2024 00:23:01 x11vnc version: 0.9.16 lastmod: 2019-01-05  pid: 830
+/workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC/utils/websockify/websockify/websocket.py:31: UserWarning: no 'numpy' module, HyBi protocol will be slower
+  warnings.warn("no 'numpy' module, HyBi protocol will be slower")
+WebSocket server settings:
+  - Listen on :6080
+  - Web server. Web root: /workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC
+  - No SSL/TLS support (no cert file)
+25/11/2024 00:23:02 Using X display :99
+25/11/2024 00:23:02 rootwin: 0x50e reswin: 0x200001 dpy: 0xb0139c10
+25/11/2024 00:23:02 
+25/11/2024 00:23:02 ------------------ USEFUL INFORMATION ------------------
+  - proxying from :6080 to localhost:5900
+Failed to read: session.ignoreBorder
+Setting default value
+Failed to read: session.forcePseudoTransparency
+Setting default value
+Failed to read: session.colorsPerChannel
+Setting default value
+Failed to read: session.doubleClickInterval
+Setting default value
+Failed to read: session.tabPadding
+Setting default value
+Failed to read: session.styleOverlay
+Setting default value
+Failed to read: session.slitlistFile
+Setting default value
+Failed to read: session.appsFile
+Setting default value
+Failed to read: session.tabsAttachArea
+Setting default value
+Failed to read: session.cacheLife
+Setting default value
+Failed to read: session.cacheMax
+Setting default value
+Failed to read: session.autoRaiseDelay
+Setting default value
+Failed to read: session.ignoreBorder
+Setting default value
+Failed to read: session.forcePseudoTransparency
+Setting default value
+Failed to read: session.colorsPerChannel
+Setting default value
+Failed to read: session.doubleClickInterval
+Setting default value
+Failed to read: session.tabPadding
+Setting default value
+Failed to read: session.styleOverlay
+Setting default value
+Failed to read: session.slitlistFile
+Setting default value
+Failed to read: session.appsFile
+Setting default value
+Failed to read: session.tabsAttachArea
+Setting default value
+Failed to read: session.cacheLife
+Setting default value
+Failed to read: session.cacheMax
+Setting default value
+Failed to read: session.autoRaiseDelay
+Setting default value
+Failed to read: session.screen0.opaqueMove
+Setting default value
+Failed to read: session.screen0.fullMaximization
+Setting default value
+Failed to read: session.screen0.maxIgnoreIncrement
+Setting default value
+Failed to read: session.screen0.maxDisableMove
+Setting default value
+Failed to read: session.screen0.maxDisableResize
+Setting default value
+Failed to read: session.screen0.workspacewarping
+Setting default value
+Failed to read: session.screen0.showwindowposition
+Setting default value
+Failed to read: session.screen0.autoRaise
+Setting default value
+Failed to read: session.screen0.clickRaises
+Setting default value
+Failed to read: session.screen0.defaultDeco
+Setting default value
+Failed to read: session.screen0.tab.placement
+Setting default value
+Failed to read: session.screen0.windowMenu
+Setting default value
+Failed to read: session.screen0.noFocusWhileTypingDelay
+Setting default value
+Failed to read: session.screen0.workspaces
+Setting default value
+Failed to read: session.screen0.edgeSnapThreshold
+Setting default value
+Failed to read: session.screen0.window.focus.alpha
+Setting default value
+Failed to read: session.screen0.window.unfocus.alpha
+Setting default value
+Failed to read: session.screen0.menu.alpha
+Setting default value
+Failed to read: session.screen0.menuDelay
+Setting default value
+Failed to read: session.screen0.tab.width
+Setting default value
+Failed to read: session.screen0.tooltipDelay
+Setting default value
+Failed to read: session.screen0.allowRemoteActions
+Setting default value
+Failed to read: session.screen0.clientMenu.usePixmap
+Setting default value
+Failed to read: session.screen0.tabs.usePixmap
+Setting default value
+Failed to read: session.screen0.tabs.maxOver
+Setting default value
+Failed to read: session.screen0.tabs.intitlebar
+Setting default value
+Failed to read: session.screen0.focusModel
+Setting default value
+Failed to read: session.screen0.tabFocusModel
+Setting default value
+Failed to read: session.screen0.focusNewWindows
+Setting default value
+Failed to read: session.screen0.focusSameHead
+Setting default value
+Failed to read: session.screen0.rowPlacementDirection
+Setting default value
+Failed to read: session.screen0.colPlacementDirection
+Setting default value
+Failed to read: session.screen0.windowPlacement
+Setting default value
+Failed to read: session.ignoreBorder
+Setting default value
+Failed to read: session.forcePseudoTransparency
+Setting default value
+Failed to read: session.colorsPerChannel
+Setting default value
+Failed to read: session.doubleClickInterval
+Setting default value
+Failed to read: session.tabPadding
+Setting default value
+Failed to read: session.styleOverlay
+Setting default value
+Failed to read: session.slitlistFile
+Setting default value
+Failed to read: session.appsFile
+Setting default value
+Failed to read: session.tabsAttachArea
+Setting default value
+Failed to read: session.cacheLife
+Setting default value
+Failed to read: session.cacheMax
+Setting default value
+Failed to read: session.autoRaiseDelay
+Setting default value
+Failed to read: session.screen0.opaqueMove
+Setting default value
+Failed to read: session.screen0.fullMaximization
+Setting default value
+Failed to read: session.screen0.maxIgnoreIncrement
+Setting default value
+Failed to read: session.screen0.maxDisableMove
+Setting default value
+Failed to read: session.screen0.maxDisableResize
+Setting default value
+Failed to read: session.screen0.workspacewarping
+Setting default value
+Failed to read: session.screen0.showwindowposition
+Setting default value
+Failed to read: session.screen0.autoRaise
+Setting default value
+Failed to read: session.screen0.clickRaises
+Setting default value
+Failed to read: session.screen0.defaultDeco
+Setting default value
+Failed to read: session.screen0.tab.placement
+Setting default value
+Failed to read: session.screen0.windowMenu
+Setting default value
+Failed to read: session.screen0.noFocusWhileTypingDelay
+Setting default value
+Failed to read: session.screen0.workspaces
+Setting default value
+Failed to read: session.screen0.edgeSnapThreshold
+Setting default value
+Failed to read: session.screen0.window.focus.alpha
+Setting default value
+Failed to read: session.screen0.window.unfocus.alpha
+Setting default value
+Failed to read: session.screen0.menu.alpha
+Setting default value
+Failed to read: session.screen0.menuDelay
+Setting default value
+Failed to read: session.screen0.tab.width
+Setting default value
+Failed to read: session.screen0.tooltipDelay
+Setting default value
+Failed to read: session.screen0.allowRemoteActions
+Setting default value
+Failed to read: session.screen0.clientMenu.usePixmap
+Setting default value
+Failed to read: session.screen0.tabs.usePixmap
+Setting default value
+Failed to read: session.screen0.tabs.maxOver
+Setting default value
+Failed to read: session.screen0.tabs.intitlebar
+Setting default value
+Failed to read: session.screen0.focusModel
+Setting default value
+Failed to read: session.screen0.tabFocusModel
+Setting default value
+Failed to read: session.screen0.focusNewWindows
+Setting default value
+Failed to read: session.screen0.focusSameHead
+Setting default value
+Failed to read: session.screen0.rowPlacementDirection
+Setting default value
+Failed to read: session.screen0.colPlacementDirection
+Setting default value
+Failed to read: session.screen0.windowPlacement
+Setting default value
+25/11/2024 00:23:02 X DAMAGE available on display, using it for polling hints.
+25/11/2024 00:23:02   To disable this behavior use: '-noxdamage'
+25/11/2024 00:23:02 
+25/11/2024 00:23:02   Most compositing window managers like 'compiz' or 'beryl'
+25/11/2024 00:23:02   cause X DAMAGE to fail, and so you may not see any screen
+25/11/2024 00:23:02   updates via VNC.  Either disable 'compiz' (recommended) or
+25/11/2024 00:23:02   supply the x11vnc '-noxdamage' command line option.
+25/11/2024 00:23:02 
+25/11/2024 00:23:02 Wireframing: -wireframe mode is in effect for window moves.
+25/11/2024 00:23:02   If this yields undesired behavior (poor response, painting
+25/11/2024 00:23:02   errors, etc) it may be disabled:
+25/11/2024 00:23:02    - use '-nowf' to disable wireframing completely.
+25/11/2024 00:23:02    - use '-nowcr' to disable the Copy Rectangle after the
+25/11/2024 00:23:02      moved window is released in the new position.
+25/11/2024 00:23:02   Also see the -help entry for tuning parameters.
+25/11/2024 00:23:02   You can press 3 Alt_L's (Left "Alt" key) in a row to 
+25/11/2024 00:23:02   repaint the screen, also see the -fixscreen option for
+25/11/2024 00:23:02   periodic repaints.
+25/11/2024 00:23:02 
+25/11/2024 00:23:02 XFIXES available on display, resetting cursor mode
+25/11/2024 00:23:02   to: '-cursor most'.
+25/11/2024 00:23:02   to disable this behavior use: '-cursor arrow'
+25/11/2024 00:23:02   or '-noxfixes'.
+25/11/2024 00:23:02 using XFIXES for cursor drawing.
+25/11/2024 00:23:02 GrabServer control via XTEST.
+25/11/2024 00:23:02 
+25/11/2024 00:23:02 Scroll Detection: -scrollcopyrect mode is in effect to
+25/11/2024 00:23:02   use RECORD extension to try to detect scrolling windows
+25/11/2024 00:23:02   (induced by either user keystroke or mouse input).
+25/11/2024 00:23:02   If this yields undesired behavior (poor response, painting
+25/11/2024 00:23:02   errors, etc) it may be disabled via: '-noscr'
+25/11/2024 00:23:02   Also see the -help entry for tuning parameters.
+25/11/2024 00:23:02   You can press 3 Alt_L's (Left "Alt" key) in a row to 
+25/11/2024 00:23:02   repaint the screen, also see the -fixscreen option for
+25/11/2024 00:23:02   periodic repaints.
+25/11/2024 00:23:02 
+25/11/2024 00:23:02 XKEYBOARD: number of keysyms per keycode 7 is greater
+25/11/2024 00:23:02   than 4 and 51 keysyms are mapped above 4.
+25/11/2024 00:23:02   Automatically switching to -xkb mode.
+25/11/2024 00:23:02   If this makes the key mapping worse you can
+25/11/2024 00:23:02   disable it with the "-noxkb" option.
+25/11/2024 00:23:02   Also, remember "-remap DEAD" for accenting characters.
+25/11/2024 00:23:02 
+25/11/2024 00:23:02 X FBPM extension not supported.
+Xlib:  extension "DPMS" missing on display ":99".
+25/11/2024 00:23:02 X display is not capable of DPMS.
+25/11/2024 00:23:02 --------------------------------------------------------
+25/11/2024 00:23:02 
+25/11/2024 00:23:02 Default visual ID: 0x21
+25/11/2024 00:23:02 Read initial data from X display into framebuffer.
+25/11/2024 00:23:02 initialize_screen: fb_depth/fb_bpp/fb_Bpl 24/32/7680
+25/11/2024 00:23:02 
+25/11/2024 00:23:02 X display :99 is 32bpp depth=24 true color
+25/11/2024 00:23:02 
+25/11/2024 00:23:02 Autoprobing TCP port 
+25/11/2024 00:23:02 Autoprobing selected TCP port 5900
+25/11/2024 00:23:02 Autoprobing TCP6 port 
+25/11/2024 00:23:02 Autoprobing selected TCP6 port 5900
+25/11/2024 00:23:02 listen6: bind: Address already in use
+25/11/2024 00:23:02 Not listening on IPv6 interface.
+25/11/2024 00:23:02 
+25/11/2024 00:23:02 Xinerama is present and active (e.g. multi-head).
+25/11/2024 00:23:02 Xinerama: number of sub-screens: 1
+25/11/2024 00:23:02 Xinerama: no blackouts needed (only one sub-screen)
+25/11/2024 00:23:02 
+25/11/2024 00:23:02 fb read rate: 1059 MB/sec
+25/11/2024 00:23:02 fast read: reset -wait  ms to: 10
+25/11/2024 00:23:02 fast read: reset -defer ms to: 10
+25/11/2024 00:23:02 The X server says there are 10 mouse buttons.
+25/11/2024 00:23:02 screen setup finished.
+25/11/2024 00:23:02 
+
+The VNC desktop is:      f4780e5776da:0
+PORT=5900
+
+******************************************************************************
+Have you tried the x11vnc '-ncache' VNC client-side pixel caching feature yet?
+
+The scheme stores pixel data offscreen on the VNC viewer side for faster
+retrieval.  It should work with any VNC viewer.  Try it by running:
+
+    x11vnc -ncache 10 ...
+
+One can also add -ncache_cr for smooth 'copyrect' window motion.
+More info: http://www.karlrunge.com/x11vnc/faq.html#faq-client-caching
+
+Failed to read: session.screen0.slit.acceptKdeDockapps
+Setting default value
+Failed to read: session.screen0.slit.autoHide
+Setting default value
+Failed to read: session.screen0.slit.maxOver
+Setting default value
+Failed to read: session.screen0.slit.placement
+Setting default value
+Failed to read: session.screen0.slit.alpha
+Setting default value
+Failed to read: session.screen0.slit.onhead
+Setting default value
+Failed to read: session.screen0.slit.layer
+Setting default value
+Failed to read: session.screen0.toolbar.autoHide
+Setting default value
+Failed to read: session.screen0.toolbar.maxOver
+Setting default value
+Failed to read: session.screen0.toolbar.visible
+Setting default value
+Failed to read: session.screen0.toolbar.alpha
+Setting default value
+Failed to read: session.screen0.toolbar.layer
+Setting default value
+Failed to read: session.screen0.toolbar.onhead
+Setting default value
+Failed to read: session.screen0.toolbar.placement
+Setting default value
+Failed to read: session.screen0.toolbar.height
+Setting default value
+Failed to read: session.screen0.iconbar.mode
+Setting default value
+Failed to read: session.screen0.iconbar.alignment
+Setting default value
+Failed to read: session.screen0.iconbar.iconWidth
+Setting default value
+Failed to read: session.screen0.iconbar.iconTextPadding
+Setting default value
+Failed to read: session.screen0.iconbar.usePixmap
+Setting default value
+
+
+Navigate to this URL:
+
+    http://f4780e5776da:6080/vnc.html?host=f4780e5776da&port=6080
+
+Press Ctrl-C to exit
+
+
+127.0.0.1 - - [25/Nov/2024 00:23:27] 127.0.0.1: Plain non-SSL (ws://) WebSocket connection
+127.0.0.1 - - [25/Nov/2024 00:23:27] 127.0.0.1: Path: '/websockify'
+127.0.0.1 - - [25/Nov/2024 00:23:27] connecting to: localhost:5900
+25/11/2024 00:23:27 Got connection from client 127.0.0.1
+25/11/2024 00:23:27   other clients:
+25/11/2024 00:23:27 Normal socket connection
+25/11/2024 00:23:27 Disabled X server key autorepeat.
+25/11/2024 00:23:27   to force back on run: 'xset r on' (3 times)
+25/11/2024 00:23:27 incr accepted_client=1 for 127.0.0.1:39808  sock=10
+25/11/2024 00:23:27 Client Protocol Version 3.8
+25/11/2024 00:23:27 Protocol version sent 3.8, using 3.8
+25/11/2024 00:23:27 rfbProcessClientSecurityType: executing handler for type 1
+25/11/2024 00:23:27 rfbProcessClientSecurityType: returning securityResult for client rfb version >= 3.8
+25/11/2024 00:23:27 created   xdamage object: 0x200040
+25/11/2024 00:23:27 client_set_net: 127.0.0.1  0.0004
+25/11/2024 00:23:28 copy_tiles: allocating first_line at size 61
+25/11/2024 00:23:28 Pixel format for client 127.0.0.1:
+25/11/2024 00:23:28   32 bpp, depth 24, little endian
+25/11/2024 00:23:28   true colour: max r 255 g 255 b 255, shift r 0 g 8 b 16
+25/11/2024 00:23:28 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x00000032)
+25/11/2024 00:23:28 rfbProcessClientNormalMessage: ignoring unsupported encoding type tightPng
+25/11/2024 00:23:28 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x00000015)
+25/11/2024 00:23:28 Using image quality level 2 for client 127.0.0.1
+25/11/2024 00:23:28 Using JPEG subsampling 1, Q41 for client 127.0.0.1
+25/11/2024 00:23:28 Using compression level 2 for client 127.0.0.1
+25/11/2024 00:23:28 Enabling NewFBSize protocol extension for client 127.0.0.1
+25/11/2024 00:23:28 Enabling LastRect protocol extension for client 127.0.0.1
+25/11/2024 00:23:28 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEFE)
+25/11/2024 00:23:28 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEFB)
+25/11/2024 00:23:28 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFECC)
+25/11/2024 00:23:28 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC8)
+25/11/2024 00:23:28 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC7)
+25/11/2024 00:23:28 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFECD)
+25/11/2024 00:23:28 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xC0A1E5CE)
+25/11/2024 00:23:28 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x574D5664)
+25/11/2024 00:23:28 Enabling full-color cursor updates for client 127.0.0.1
+25/11/2024 00:23:28 Using tight encoding for client 127.0.0.1
+25/11/2024 00:23:29 client 1 network rate 27.5 KB/sec (12089.0 eff KB/sec)
+25/11/2024 00:23:29 client 1 latency:  404.8 ms
+25/11/2024 00:23:29 dt1: 0.0040, dt2: 0.6823 dt3: 0.4048 bytes: 18866
+25/11/2024 00:23:29 link_rate: LR_DIALUP - 404 ms, 27 KB/s
+25/11/2024 00:23:36 created selwin: 0x200041
+25/11/2024 00:23:36 called initialize_xfixes()
+Failed to read: session.screen0.titlebar.left
+Setting default value
+Failed to read: session.screen0.titlebar.right
+Setting default value
+_XSERVTransmkdir: ERROR: euid != 0,directory /tmp/.X11-unix will not be created.
+Warning: Failed to set locale, reverting to "C"
+Warning: could not find self.pem
+Using local websockify at /workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC/utils/websockify/run
+25/11/2024 13:25:26 x11vnc version: 0.9.16 lastmod: 2019-01-05  pid: 976
+Starting webserver and WebSockets proxy on port 6080
+/workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC/utils/websockify/websockify/websocket.py:31: UserWarning: no 'numpy' module, HyBi protocol will be slower
+  warnings.warn("no 'numpy' module, HyBi protocol will be slower")
+WebSocket server settings:
+  - Listen on :6080
+  - Web server. Web root: /workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC
+  - No SSL/TLS support (no cert file)
+  - proxying from :6080 to localhost:5900
+25/11/2024 13:25:26 Using X display :99
+25/11/2024 13:25:26 rootwin: 0x50e reswin: 0x200001 dpy: 0xda836ed0
+25/11/2024 13:25:26 
+25/11/2024 13:25:26 ------------------ USEFUL INFORMATION ------------------
+Failed to read: session.ignoreBorder
+Setting default value
+Failed to read: session.forcePseudoTransparency
+Setting default value
+Failed to read: session.colorsPerChannel
+Setting default value
+Failed to read: session.doubleClickInterval
+Setting default value
+Failed to read: session.tabPadding
+Setting default value
+Failed to read: session.styleOverlay
+Setting default value
+Failed to read: session.slitlistFile
+Setting default value
+Failed to read: session.appsFile
+Setting default value
+Failed to read: session.tabsAttachArea
+Setting default value
+Failed to read: session.cacheLife
+Setting default value
+Failed to read: session.cacheMax
+Setting default value
+Failed to read: session.autoRaiseDelay
+Setting default value
+Failed to read: session.ignoreBorder
+Setting default value
+Failed to read: session.forcePseudoTransparency
+Setting default value
+Failed to read: session.colorsPerChannel
+Setting default value
+Failed to read: session.doubleClickInterval
+Setting default value
+Failed to read: session.tabPadding
+Setting default value
+Failed to read: session.styleOverlay
+Setting default value
+Failed to read: session.slitlistFile
+Setting default value
+Failed to read: session.appsFile
+Setting default value
+Failed to read: session.tabsAttachArea
+Setting default value
+Failed to read: session.cacheLife
+Setting default value
+Failed to read: session.cacheMax
+Setting default value
+Failed to read: session.autoRaiseDelay
+Setting default value
+
+
+Navigate to this URL:
+
+    http://55871cfa97e4:6080/vnc.html?host=55871cfa97e4&port=6080
+
+Press Ctrl-C to exit
+
+
+Failed to read: session.screen0.opaqueMove
+Setting default value
+Failed to read: session.screen0.fullMaximization
+Setting default value
+Failed to read: session.screen0.maxIgnoreIncrement
+Setting default value
+Failed to read: session.screen0.maxDisableMove
+Setting default value
+Failed to read: session.screen0.maxDisableResize
+Setting default value
+Failed to read: session.screen0.workspacewarping
+Setting default value
+Failed to read: session.screen0.showwindowposition
+Setting default value
+Failed to read: session.screen0.autoRaise
+Setting default value
+Failed to read: session.screen0.clickRaises
+Setting default value
+Failed to read: session.screen0.defaultDeco
+Setting default value
+Failed to read: session.screen0.tab.placement
+Setting default value
+Failed to read: session.screen0.windowMenu
+Setting default value
+Failed to read: session.screen0.noFocusWhileTypingDelay
+Setting default value
+Failed to read: session.screen0.workspaces
+Setting default value
+Failed to read: session.screen0.edgeSnapThreshold
+Setting default value
+Failed to read: session.screen0.window.focus.alpha
+Setting default value
+Failed to read: session.screen0.window.unfocus.alpha
+Setting default value
+Failed to read: session.screen0.menu.alpha
+Setting default value
+Failed to read: session.screen0.menuDelay
+Setting default value
+Failed to read: session.screen0.tab.width
+Setting default value
+Failed to read: session.screen0.tooltipDelay
+Setting default value
+Failed to read: session.screen0.allowRemoteActions
+Setting default value
+Failed to read: session.screen0.clientMenu.usePixmap
+Setting default value
+Failed to read: session.screen0.tabs.usePixmap
+Setting default value
+Failed to read: session.screen0.tabs.maxOver
+Setting default value
+Failed to read: session.screen0.tabs.intitlebar
+Setting default value
+Failed to read: session.screen0.focusModel
+Setting default value
+Failed to read: session.screen0.tabFocusModel
+Setting default value
+Failed to read: session.screen0.focusNewWindows
+Setting default value
+Failed to read: session.screen0.focusSameHead
+Setting default value
+Failed to read: session.screen0.rowPlacementDirection
+Setting default value
+Failed to read: session.screen0.colPlacementDirection
+Setting default value
+Failed to read: session.screen0.windowPlacement
+Setting default value
+Failed to read: session.ignoreBorder
+Setting default value
+Failed to read: session.forcePseudoTransparency
+Setting default value
+Failed to read: session.colorsPerChannel
+Setting default value
+Failed to read: session.doubleClickInterval
+Setting default value
+Failed to read: session.tabPadding
+Setting default value
+Failed to read: session.styleOverlay
+Setting default value
+Failed to read: session.slitlistFile
+Setting default value
+Failed to read: session.appsFile
+Setting default value
+Failed to read: session.tabsAttachArea
+Setting default value
+Failed to read: session.cacheLife
+Setting default value
+Failed to read: session.cacheMax
+Setting default value
+Failed to read: session.autoRaiseDelay
+Setting default value
+Failed to read: session.screen0.opaqueMove
+Setting default value
+Failed to read: session.screen0.fullMaximization
+Setting default value
+Failed to read: session.screen0.maxIgnoreIncrement
+Setting default value
+Failed to read: session.screen0.maxDisableMove
+Setting default value
+Failed to read: session.screen0.maxDisableResize
+Setting default value
+Failed to read: session.screen0.workspacewarping
+Setting default value
+Failed to read: session.screen0.showwindowposition
+Setting default value
+Failed to read: session.screen0.autoRaise
+Setting default value
+Failed to read: session.screen0.clickRaises
+Setting default value
+Failed to read: session.screen0.defaultDeco
+Setting default value
+Failed to read: session.screen0.tab.placement
+Setting default value
+Failed to read: session.screen0.windowMenu
+Setting default value
+Failed to read: session.screen0.noFocusWhileTypingDelay
+Setting default value
+Failed to read: session.screen0.workspaces
+Setting default value
+Failed to read: session.screen0.edgeSnapThreshold
+Setting default value
+Failed to read: session.screen0.window.focus.alpha
+Setting default value
+Failed to read: session.screen0.window.unfocus.alpha
+Setting default value
+Failed to read: session.screen0.menu.alpha
+Setting default value
+Failed to read: session.screen0.menuDelay
+Setting default value
+Failed to read: session.screen0.tab.width
+Setting default value
+Failed to read: session.screen0.tooltipDelay
+Setting default value
+Failed to read: session.screen0.allowRemoteActions
+Setting default value
+Failed to read: session.screen0.clientMenu.usePixmap
+Setting default value
+Failed to read: session.screen0.tabs.usePixmap
+Setting default value
+Failed to read: session.screen0.tabs.maxOver
+Setting default value
+Failed to read: session.screen0.tabs.intitlebar
+Setting default value
+Failed to read: session.screen0.focusModel
+Setting default value
+Failed to read: session.screen0.tabFocusModel
+Setting default value
+Failed to read: session.screen0.focusNewWindows
+Setting default value
+Failed to read: session.screen0.focusSameHead
+Setting default value
+Failed to read: session.screen0.rowPlacementDirection
+Setting default value
+Failed to read: session.screen0.colPlacementDirection
+Setting default value
+Failed to read: session.screen0.windowPlacement
+Setting default value
+25/11/2024 13:25:27 X DAMAGE available on display, using it for polling hints.
+25/11/2024 13:25:27   To disable this behavior use: '-noxdamage'
+25/11/2024 13:25:27 
+25/11/2024 13:25:27   Most compositing window managers like 'compiz' or 'beryl'
+25/11/2024 13:25:27   cause X DAMAGE to fail, and so you may not see any screen
+25/11/2024 13:25:27   updates via VNC.  Either disable 'compiz' (recommended) or
+25/11/2024 13:25:27   supply the x11vnc '-noxdamage' command line option.
+25/11/2024 13:25:27 
+25/11/2024 13:25:27 Wireframing: -wireframe mode is in effect for window moves.
+25/11/2024 13:25:27   If this yields undesired behavior (poor response, painting
+25/11/2024 13:25:27   errors, etc) it may be disabled:
+25/11/2024 13:25:27    - use '-nowf' to disable wireframing completely.
+25/11/2024 13:25:27    - use '-nowcr' to disable the Copy Rectangle after the
+25/11/2024 13:25:27      moved window is released in the new position.
+25/11/2024 13:25:27   Also see the -help entry for tuning parameters.
+25/11/2024 13:25:27   You can press 3 Alt_L's (Left "Alt" key) in a row to 
+25/11/2024 13:25:27   repaint the screen, also see the -fixscreen option for
+25/11/2024 13:25:27   periodic repaints.
+25/11/2024 13:25:27 
+25/11/2024 13:25:27 XFIXES available on display, resetting cursor mode
+25/11/2024 13:25:27   to: '-cursor most'.
+25/11/2024 13:25:27   to disable this behavior use: '-cursor arrow'
+25/11/2024 13:25:27   or '-noxfixes'.
+25/11/2024 13:25:27 using XFIXES for cursor drawing.
+25/11/2024 13:25:27 GrabServer control via XTEST.
+25/11/2024 13:25:27 
+25/11/2024 13:25:27 Scroll Detection: -scrollcopyrect mode is in effect to
+25/11/2024 13:25:27   use RECORD extension to try to detect scrolling windows
+25/11/2024 13:25:27   (induced by either user keystroke or mouse input).
+25/11/2024 13:25:27   If this yields undesired behavior (poor response, painting
+25/11/2024 13:25:27   errors, etc) it may be disabled via: '-noscr'
+25/11/2024 13:25:27   Also see the -help entry for tuning parameters.
+25/11/2024 13:25:27   You can press 3 Alt_L's (Left "Alt" key) in a row to 
+25/11/2024 13:25:27   repaint the screen, also see the -fixscreen option for
+25/11/2024 13:25:27   periodic repaints.
+25/11/2024 13:25:27 
+25/11/2024 13:25:27 XKEYBOARD: number of keysyms per keycode 7 is greater
+25/11/2024 13:25:27   than 4 and 51 keysyms are mapped above 4.
+25/11/2024 13:25:27   Automatically switching to -xkb mode.
+25/11/2024 13:25:27   If this makes the key mapping worse you can
+25/11/2024 13:25:27   disable it with the "-noxkb" option.
+25/11/2024 13:25:27   Also, remember "-remap DEAD" for accenting characters.
+25/11/2024 13:25:27 
+25/11/2024 13:25:27 X FBPM extension not supported.
+Xlib:  extension "DPMS" missing on display ":99".
+25/11/2024 13:25:27 X display is not capable of DPMS.
+25/11/2024 13:25:27 --------------------------------------------------------
+25/11/2024 13:25:27 
+25/11/2024 13:25:27 Default visual ID: 0x21
+25/11/2024 13:25:27 Read initial data from X display into framebuffer.
+25/11/2024 13:25:27 initialize_screen: fb_depth/fb_bpp/fb_Bpl 24/32/7680
+25/11/2024 13:25:27 
+25/11/2024 13:25:27 X display :99 is 32bpp depth=24 true color
+25/11/2024 13:25:27 
+25/11/2024 13:25:27 Autoprobing TCP port 
+25/11/2024 13:25:27 Autoprobing selected TCP port 5900
+25/11/2024 13:25:27 Autoprobing TCP6 port 
+25/11/2024 13:25:27 Autoprobing selected TCP6 port 5900
+25/11/2024 13:25:27 listen6: bind: Address already in use
+25/11/2024 13:25:27 Not listening on IPv6 interface.
+25/11/2024 13:25:27 
+25/11/2024 13:25:27 Xinerama is present and active (e.g. multi-head).
+25/11/2024 13:25:27 Xinerama: number of sub-screens: 1
+25/11/2024 13:25:27 Xinerama: no blackouts needed (only one sub-screen)
+25/11/2024 13:25:27 
+25/11/2024 13:25:27 fb read rate: 1111 MB/sec
+25/11/2024 13:25:27 fast read: reset -wait  ms to: 10
+25/11/2024 13:25:27 fast read: reset -defer ms to: 10
+25/11/2024 13:25:27 The X server says there are 10 mouse buttons.
+25/11/2024 13:25:27 screen setup finished.
+25/11/2024 13:25:27 
+
+The VNC desktop is:      55871cfa97e4:0
+PORT=5900
+
+******************************************************************************
+Have you tried the x11vnc '-ncache' VNC client-side pixel caching feature yet?
+
+The scheme stores pixel data offscreen on the VNC viewer side for faster
+retrieval.  It should work with any VNC viewer.  Try it by running:
+
+    x11vnc -ncache 10 ...
+
+One can also add -ncache_cr for smooth 'copyrect' window motion.
+More info: http://www.karlrunge.com/x11vnc/faq.html#faq-client-caching
+
+Failed to read: session.screen0.slit.acceptKdeDockapps
+Setting default value
+Failed to read: session.screen0.slit.autoHide
+Setting default value
+Failed to read: session.screen0.slit.maxOver
+Setting default value
+Failed to read: session.screen0.slit.placement
+Setting default value
+Failed to read: session.screen0.slit.alpha
+Setting default value
+Failed to read: session.screen0.slit.onhead
+Setting default value
+Failed to read: session.screen0.slit.layer
+Setting default value
+Failed to read: session.screen0.toolbar.autoHide
+Setting default value
+Failed to read: session.screen0.toolbar.maxOver
+Setting default value
+Failed to read: session.screen0.toolbar.visible
+Setting default value
+Failed to read: session.screen0.toolbar.alpha
+Setting default value
+Failed to read: session.screen0.toolbar.layer
+Setting default value
+Failed to read: session.screen0.toolbar.onhead
+Setting default value
+Failed to read: session.screen0.toolbar.placement
+Setting default value
+Failed to read: session.screen0.toolbar.height
+Setting default value
+Failed to read: session.screen0.iconbar.mode
+Setting default value
+Failed to read: session.screen0.iconbar.alignment
+Setting default value
+Failed to read: session.screen0.iconbar.iconWidth
+Setting default value
+Failed to read: session.screen0.iconbar.iconTextPadding
+Setting default value
+Failed to read: session.screen0.iconbar.usePixmap
+Setting default value
+127.0.0.1 - - [25/Nov/2024 13:25:42] 127.0.0.1: Plain non-SSL (ws://) WebSocket connection
+127.0.0.1 - - [25/Nov/2024 13:25:42] 127.0.0.1: Path: '/websockify'
+127.0.0.1 - - [25/Nov/2024 13:25:42] connecting to: localhost:5900
+25/11/2024 13:25:42 Got connection from client 127.0.0.1
+25/11/2024 13:25:42   other clients:
+25/11/2024 13:25:42 Normal socket connection
+25/11/2024 13:25:42 Disabled X server key autorepeat.
+25/11/2024 13:25:42   to force back on run: 'xset r on' (3 times)
+25/11/2024 13:25:42 incr accepted_client=1 for 127.0.0.1:60850  sock=10
+25/11/2024 13:25:42 Client Protocol Version 3.8
+25/11/2024 13:25:42 Protocol version sent 3.8, using 3.8
+25/11/2024 13:25:42 rfbProcessClientSecurityType: executing handler for type 1
+25/11/2024 13:25:42 rfbProcessClientSecurityType: returning securityResult for client rfb version >= 3.8
+25/11/2024 13:25:43 created   xdamage object: 0x200040
+25/11/2024 13:25:43 client_set_net: 127.0.0.1  0.0005
+25/11/2024 13:25:43 Pixel format for client 127.0.0.1:
+25/11/2024 13:25:43   32 bpp, depth 24, little endian
+25/11/2024 13:25:43   true colour: max r 255 g 255 b 255, shift r 0 g 8 b 16
+25/11/2024 13:25:43 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x00000032)
+25/11/2024 13:25:43 rfbProcessClientNormalMessage: ignoring unsupported encoding type tightPng
+25/11/2024 13:25:43 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x00000015)
+25/11/2024 13:25:43 Using image quality level 2 for client 127.0.0.1
+25/11/2024 13:25:43 Using JPEG subsampling 1, Q41 for client 127.0.0.1
+25/11/2024 13:25:43 Using compression level 2 for client 127.0.0.1
+25/11/2024 13:25:43 Enabling NewFBSize protocol extension for client 127.0.0.1
+25/11/2024 13:25:43 Enabling LastRect protocol extension for client 127.0.0.1
+25/11/2024 13:25:43 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEFE)
+25/11/2024 13:25:43 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEFB)
+25/11/2024 13:25:43 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFECC)
+25/11/2024 13:25:43 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC8)
+25/11/2024 13:25:43 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFEC7)
+25/11/2024 13:25:43 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xFFFFFECD)
+25/11/2024 13:25:43 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0xC0A1E5CE)
+25/11/2024 13:25:43 rfbProcessClientNormalMessage: ignoring unsupported encoding type Enc(0x574D5664)
+25/11/2024 13:25:43 Enabling full-color cursor updates for client 127.0.0.1
+25/11/2024 13:25:43 Using tight encoding for client 127.0.0.1
+25/11/2024 13:25:45 client 1 network rate 37.6 KB/sec (16535.0 eff KB/sec)
+25/11/2024 13:25:45 client 1 latency:  321.3 ms
+25/11/2024 13:25:45 dt1: 0.0148, dt2: 0.4870 dt3: 0.3213 bytes: 18855
+25/11/2024 13:25:45 link_rate: LR_DIALUP - 321 ms, 37 KB/s
+25/11/2024 13:25:45 copy_tiles: allocating first_line at size 61
+25/11/2024 13:25:51 created selwin: 0x200041
+25/11/2024 13:25:51 called initialize_xfixes()
+Failed to read: session.screen0.titlebar.left
+Setting default value
+Failed to read: session.screen0.titlebar.right
+Setting default value
+25/11/2024 13:30:43 idle keyboard:   turning X autorepeat back on.
+25/11/2024 14:34:55 active keyboard: waiting until all keys are up. key_down=116 Down.  If the key is inaccessible via keyboard, consider 'x11vnc -R clear_all'
+25/11/2024 14:34:57 active keyboard: turning X autorepeat off.
+25/11/2024 14:35:18 increased wireframe timeouts for slow network connection.
+25/11/2024 14:35:18 netrate: 37 KB/sec, latency: 321 ms
+25/11/2024 14:40:03 idle keyboard:   turning X autorepeat back on.
+25/11/2024 14:49:41 active keyboard: turning X autorepeat off.
+25/11/2024 14:55:23 idle keyboard:   turning X autorepeat back on.
+
+caught signal: 15
+Terminating WebSockets proxy (987)
+X connection to :99 broken (explicit kill or server shutdown).
+In exit
+Terminating child 1059
+Process Process-1:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC/utils/websockify/websockify/websockifyserver.py", line 683, in top_new_client
+    client = self.do_handshake(startsock, address)
+  File "/workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC/utils/websockify/websockify/websockifyserver.py", line 611, in do_handshake
+    self.RequestHandlerClass(retsock, address, self)
+  File "/workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC/utils/websockify/websockify/websockifyserver.py", line 87, in __init__
+    super().__init__(req, addr, server)
+  File "/usr/lib/python3.8/http/server.py", line 647, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.8/socketserver.py", line 747, in __init__
+    self.handle()
+  File "/workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC/utils/websockify/websockify/websockifyserver.py", line 297, in handle
+    super().handle()
+  File "/usr/lib/python3.8/http/server.py", line 427, in handle
+    self.handle_one_request()
+  File "/workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC/utils/websockify/websockify/websocketserver.py", line 57, in handle_one_request
+    super().handle_one_request()
+  File "/usr/lib/python3.8/http/server.py", line 415, in handle_one_request
+    method()
+  File "/workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC/utils/websockify/websockify/websocketserver.py", line 67, in _websocket_do_GET
+    self.handle_upgrade()
+  File "/workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC/utils/websockify/websockify/websockifyserver.py", line 203, in handle_upgrade
+    super().handle_upgrade()
+  File "/workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC/utils/websockify/websockify/websocketserver.py", line 92, in handle_upgrade
+    self.handle_websocket()
+  File "/workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC/utils/websockify/websockify/websockifyserver.py", line 241, in handle_websocket
+    self.new_websocket_client()
+  File "/workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC/utils/websockify/websockify/websocketproxy.py", line 125, in new_websocket_client
+    self.do_proxy(tsock)
+  File "/workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC/utils/websockify/websockify/websocketproxy.py", line 200, in do_proxy
+    ins, outs, excepts = select.select(rlist, wlist, [], 1)
+  File "/workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC/utils/websockify/websockify/websockifyserver.py", line 675, in do_SIGTERM
+    self.terminate()
+  File "/workspace/ARD2/ARDrone_SDK_2_0_1/Examples/Linux/Build/Release/noVNC/utils/websockify/websockify/websockifyserver.py", line 648, in terminate
+    raise self.Terminate()
+websockify.websockifyserver.WebSockifyServer.Terminate
+25/11/2024 15:11:45 deleted 60 tile_row polling images.
+extra[1] signal: -1
+X connection to :99 broken (explicit kill or server shutdown).

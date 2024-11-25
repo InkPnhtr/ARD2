@@ -1,6 +1,6 @@
 #!/bin/bash
 # Navigate through the directories
-nohup Xvfb :99 -screen 0 1920x1080x24 &
+nohup Xvfb :99 -screen 0 1920x1080x24 &listen
 export DISPLAY=:99
 nohup fluxbox &
 ps aux | grep Xvfb
