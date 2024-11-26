@@ -81,7 +81,7 @@ C_RESULT ardrone_tool_setup_com( const char* ssid )
 	  DEBUG_PRINT_SDK("VP_Com : Failed to init com for navdata\n");
 	  vp_com_shutdown(COM_NAVDATA());
 	  // Instead of returning failure, return success or continue the program
-	  return C_OK;  // Allow program to continue even if failed
+	  return C_FAIL;  // Allow program to continue even if failed
   }
 
 
