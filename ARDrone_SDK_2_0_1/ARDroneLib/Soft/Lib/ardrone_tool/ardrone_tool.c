@@ -362,18 +362,17 @@ int ardrone_tool_main(int argc, char **argv)
   }
 
     // Skip the drone connection check
-    printf("Skipping drone connection check. Proceeding to UI...\n");
+    printf("nOOOOT Skipping drone connection check. Proceeding to UI...\n");
 
     // Optional: If you want to proceed without waiting for the drone:
     // Comment out or remove the connection check below:
 
-  /*
+  
   while (-1 == getDroneVersion (root_dir, wifi_ardrone_ip, &ardroneVersion))
     {
       printf ("Getting AR.Drone version ...\n");
       vp_os_delay (250);
     }
-    */
 
 
   // Proceed to setup communication or initialize the UI
