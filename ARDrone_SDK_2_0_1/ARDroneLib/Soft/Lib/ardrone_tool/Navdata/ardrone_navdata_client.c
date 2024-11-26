@@ -150,7 +150,7 @@ DEFINE_THREAD_ROUTINE( navdata_update, nomParams )
 	
 		if( navdata_read == NULL )
       {
-        res = C_OK;
+        res = C_FAIL;
         continue;
       }
 
