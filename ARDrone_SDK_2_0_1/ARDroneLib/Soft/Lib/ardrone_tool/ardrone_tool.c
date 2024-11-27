@@ -81,7 +81,7 @@ C_RESULT ardrone_tool_setup_com( const char* ssid )
 	  DEBUG_PRINT_SDK("VP_Com : Failed to init com for navdata\n");
 	  vp_com_shutdown(COM_NAVDATA());
 	  // Instead of returning failure, return success or continue the program
-	  return C_FAIL;  // Allow program to continue even if failed
+	  return C_OK;  // Allow program to continue even if failed
   }
 
 
@@ -93,7 +93,7 @@ if( SUCCEED(res) && FAILED(vp_com_local_config(COM_NAVDATA(), COM_CONFIG_NAVDATA
   {
 	  DEBUG_PRINT_SDK("VP_Com : Failed to configure com for navdata\n");
 	  vp_com_shutdown(COM_NAVDATA());
-	  return C_OK;  // Continue running if failed
+	  res = C_FAIL;  // Continue running if failed
   }
 
  if( ssid != NULL )
@@ -102,7 +102,26 @@ if( SUCCEED(res) && FAILED(vp_com_local_config(COM_NAVDATA(), COM_CONFIG_NAVDATA
 		((vp_com_wifi_connection_t*)wifi_connection())->networkName[VP_COM_NAME_MAXSIZE-1]='\0';
 	}
 
+
   // Don't block on connection failure
+    if( SUCCEED(res) && FAILED(vp_com_connect(COM_NAVDATA(), COM_CONNECTION_NAVDATA(), NUM_ATTEMPTS)))
+  {
+	  DEBUG_PRINT_SDK("VP_Com: Failed to connect for navdata\n");
+	  vp_com_shutdown(COM_NAVDATA());
+	  res = C_FAIL;
+  }
+#else  
+  vp_com_init(COM_NAVDATA());
+  vp_com_network_adapter_lookup(COM_NAVDATA(), ardrone_toy_network_adapter_cb);
+  vp_com_local_config(COM_NAVDATA(), COM_CONFIG_NAVDATA());
+
+  if( ssid != NULL )
+	{
+		strncpy( ((vp_com_wifi_connection_t*)wifi_connection())->networkName, ssid, VP_COM_NAME_MAXSIZE-1 );
+		((vp_com_wifi_connection_t*)wifi_connection())->networkName[VP_COM_NAME_MAXSIZE-1]='\0';
+	}
+
+
   vp_com_connect(COM_NAVDATA(), COM_CONNECTION_NAVDATA(), NUM_ATTEMPTS);
   ((vp_com_wifi_connection_t*)wifi_connection())->is_up=1;
 #endif
@@ -380,14 +399,32 @@ int ardrone_tool_main(int argc, char **argv)
 
 	res = ardrone_tool_setup_com( NULL );
 
-if( FAILED(res) )
-{
-  PRINT("Wifi initialization failed. Continuing without drone connection...\n");
-}
-else
-{
-  PRINT("Wifi initialization succeeded. Starting ARDrone tool...\n");
+    if( FAILED(res) )
+    {
+      PRINT("Wifi initialization failed. Continuing without drone connection...\n");
+      PRINT("\t* you're not root (it's mandatory because you can set up wifi connection only as root)\n");
+      PRINT("\t* wifi device is not present (on your pc or on your card)\n");
+      PRINT("\t* you set the wrong name for wifi interface (for example rausb0 instead of wlan0) \n");
+      PRINT("\t* ap is not up (reboot card or remove wifi usb dongle)\n");
+      PRINT("\t* wifi device has no antenna\n");
+
+    }
+    else
+    {
+  // PRINT("Wifi initialization succeeded. Starting ARDrone tool...\n");
   // Continue with the rest of the program even if drone connection failed
+  	// Save appname/appid for reconnections
+		char *appname = NULL;
+		int lastSlashPos;
+		/* Cut the invoking name to the last / or \ character on the command line
+		* This avoids using differents app_id for applications called from different directories
+		* e.g. if argv[0] is "Build/Release/ardrone_navigation", appname will point to "ardrone_navigation" only
+		*/
+		for (lastSlashPos = strlen (argv[0])-1; lastSlashPos > 0 && argv[0][lastSlashPos] != '/' && argv[0][lastSlashPos] != '\\'; lastSlashPos--);
+		appname = &argv[0][lastSlashPos+1];
+		ardrone_gen_appid (appname, __SDK_VERSION__, app_id, app_name, sizeof (app_name));
+		res = ardrone_tool_init(wifi_ardrone_ip, strlen(wifi_ardrone_ip), NULL, appname, NULL, NULL, NULL, MAX_FLIGHT_STORING_SIZE, NULL);
+
   res = ardrone_tool_init(wifi_ardrone_ip, strlen(wifi_ardrone_ip), NULL, appname, NULL, NULL, NULL, MAX_FLIGHT_STORING_SIZE, NULL);
 
   while( SUCCEED(res) && ardrone_tool_exit() == FALSE )

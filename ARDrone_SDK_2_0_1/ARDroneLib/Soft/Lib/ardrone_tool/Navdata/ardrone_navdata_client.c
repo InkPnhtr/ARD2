@@ -172,7 +172,7 @@ DEFINE_THREAD_ROUTINE( navdata_update, nomParams )
 			num_retries++;
 		} 
 		else
-//          num_retries = 0;
+      num_retries = 0;
 // REM
       if( VP_SUCCEEDED( res ) )
       {
