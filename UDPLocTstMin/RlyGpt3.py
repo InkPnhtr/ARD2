@@ -34,14 +34,20 @@ def udp_pairing_server(udp_server):
     print("UDP Pairing Server started on port 5554...")
     udp_clients = []
     pair_id = 0
-
+    addrFix='192.168.0.1:5554'
+    udp_clients.append(addrFix)
+    print(f"udp_clients = {udp_clients[0]}")
+	
     while True:
+
+        print(f"len udp_clients = {len(udp_clients)}")
+	
         data, addr = udp_server.recvfrom(1024)
         print(f"Received data from {addr}: {data.decode()}")
 
         if addr not in udp_clients:
             udp_clients.append(addr)
-        
+
         if len(udp_clients) == 2:
             client_a, client_b = udp_clients
             print(f"Pairing UDP clients: {client_a} <-> {client_b}")
@@ -92,3 +98,5 @@ if __name__ == "__main__":
     finally:
         udp_server.close()
         tcp_server.close()
+
+
