@@ -1,4 +1,6 @@
 import socket
+import time
+
 
 # Function to relay UDP data (dummy example)
 def udp_relay(udp_server, pair_id):
@@ -10,6 +12,9 @@ def udp_relay(udp_server, pair_id):
             # Send data to a specific address
             udp_server.sendto(data, ('127.0.0.1', 5554))
             print(f"Sent: {data}")
+            # Send packets at a fixed interval (e.g., 30 Hz)
+            time.sleep(1 / 4.0)
+
     except Exception as e:
         print(f"UDP Relay for Pair ID = {pair_id} terminated: {e}")
 
