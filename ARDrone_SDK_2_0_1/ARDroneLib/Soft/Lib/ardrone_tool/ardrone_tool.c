@@ -385,11 +385,11 @@ int ardrone_tool_main(int argc, char **argv)
 	  }
   }
 
-  while (-1 == getDroneVersion (root_dir, wifi_ardrone_ip, &ardroneVersion))
-    {
-      printf ("Getting AR.Drone version ...\n");
-      vp_os_delay (250);
-    }
+//   while (-1 == getDroneVersion (root_dir, wifi_ardrone_ip, &ardroneVersion))
+//     {
+//       printf ("Getting AR.Drone version ...\n");
+//       vp_os_delay (250);
+//     }
 
 	res = ardrone_tool_setup_com( NULL );
 
