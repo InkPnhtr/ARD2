@@ -22,7 +22,7 @@ def create_navdata_packet():
 def main():
     # Create a UDP socket
     navdata_socket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    #navdata_socket.bind((NAVDATA_HOST, NAVDATA_PORT))
+    navdata_socket.bind((NAVDATA_HOST, NAVDATA_PORT))
     #UdpSktLst[j].bind((LstnHost, UdpPrtLst)) # listen
 
 
