@@ -51,11 +51,11 @@ def udp_pairing_server(udp_server):
 	
     while True:
         print(f"len udp_clients = {len(udp_clients)}")
-        data, addr = udp_server.recvfrom(1024)
-        print(f"Received data from {addr}: {data.decode()}")
+        # data, addr = udp_server.recvfrom(1024)
+        # print(f"Received data from {addr}: {data.decode()}")
 
-        if addr not in udp_clients:
-            udp_clients.append(addr)
+        # if addr not in udp_clients:
+        #     udp_clients.append(addr)
 
         if len(udp_clients) == 2:
             client_a, client_b = udp_clients
@@ -67,9 +67,10 @@ def udp_pairing_server(udp_server):
                 args=(udp_server, client_a, client_b, pair_id),
                 daemon=True
             ).start()
-
+            print("RLy THread Launched.... breaking  while loop ")
+            break
             # Clear clients list for the next pair
-            udp_clients.clear()
+            # udp_clients.clear()
             pair_id += 1
 
 # TCP Pairing Server
