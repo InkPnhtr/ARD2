@@ -1,7 +1,4 @@
 # Try to print Data and force UDP ADDR pairing
-
-
-
 import socket
 import threading
 
@@ -12,7 +9,6 @@ def udp_relay(udp_server, client_a, client_b, pair_id):
         print(f"Client a={client_a}")
         print(f"Client b={client_b}")
 
-
         while True:
             data, addr = udp_server.recvfrom(1024)
             print(f"RCVING: {data} >>>>FROM: {addr}")
@@ -21,7 +17,6 @@ def udp_relay(udp_server, client_a, client_b, pair_id):
                 udp_server.sendto(data, client_b)
             # elif addr == client_b:
             print(f"About to Send: {data} >>>>TO: {client_a}")
-
             udp_server.sendto(data, client_a)
     except Exception as e:
         print(f"UDP Relay for Pair ID {pair_id} terminated: {e}")
@@ -46,9 +41,9 @@ def udp_pairing_server(udp_server):
     print("UDP Pairing Server started on port 5554...")
     udp_clients = []
     pair_id = 0
-    addrFix='127.0.0.1', 5556
+    addrFix='192.168.1.1', 5554
     portFix= 5554
-    addrFix1='127.0.0.1', 5556
+    addrFix1='127.0.0.1', 5554
     portFix1= 5554
 
     udp_clients.append(addrFix)

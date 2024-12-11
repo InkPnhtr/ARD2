@@ -19,7 +19,7 @@ AppUdpNavDtaPrtLst = 5554
 AppUdpRwCapLst = 5557
 
 #FlRlyTgtHost = "192.168.43.5"
-FlRlyTgtHost = "127.0.0.1"
+FlRlyTgtHost = "192.168.1.1"
 FlRlyTcpftpPrtTrgt = 5561
 AppTcpCtrPrtTrgt = 5569
 AppTcpVidRecPrtTrgt = 5563
