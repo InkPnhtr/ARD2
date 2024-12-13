@@ -1,61 +1,62 @@
 # Try to print Data and force UDP ADDR pairing
 
+import sys
 import socket
 import threading
 
 # Function to relay UDP data between two clients
 def udp_relay(rudp_1, tgt):
-    # print(f"UDP Relay started for Pair OBID: {tgt}")
+    print(f"UDP Relay started for Pair OBID: {tgt}")
     try:
         print(f"Client a={rudp_1}")
         print(f"Client b={tgt}")
+        I=0
 
 
-        while True:
+        while (I<10):
             data1, addr1 = rudp_1.recvfrom(1024)
             # data2, addr2 = rudp_2.recvfrom(1024)
 
-            print(f"RCVING: {data1} >>>>FROM: {addr1}")
+            print(f"{I},RCVING:{data1} >>>>FROM:{addr1} ")
             # if addr == client_a:
-            print(f"About to Send: {data1} >>>>TO:[{tgt}]")
+            print(f"About to Send:  >>>>TO: {tgt}")
             rudp_1.sendto(data1, tgt)
+            foo=input('Please enter a value another?:')
+            foox='Mica+'+str(foo)
+            fooxb=foox.encode()
+            rudp_1.sendto(fooxb, tgt)
             # elif addr == client_b:
             # print(f"About to Send: {data} >>>>TO: {client_a}")
 
             # udp_server.sendto(data, client_a)
+            I+=1
     except Exception as e:
-        print(f"UDP Relay for tgt= {tgt} terminated: {e}")
+        print(f"UDP APPDMY I= {I} terminated: {e}")
 
 
 # Main function to run both servers
 if __name__ == "__main__":
     # Create the UDP server socket
     apddr = '127.0.0.1', 5554
-    drddr = '127.0.0.1', 5574
-
     # drddr = '192.168.1.1', 5554
-    m = 'Hello form APRely'
+    drddr = '127.0.0.1', 5564
+
+    m = 'Hello form APPDMY'
     mb = m.encode()
     udp_1 = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     udp_2 = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     # udp_server = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     # udp_server.bind(('127.0.0.1', 5554))
     # udp_server.bind(('127.0.0.1', 5554))
-    # udp_1.bind((apddr))
-    udp_1.bind(('127.0.0.1', 5564))
-    udp_2.sendto(mb, drddr) 
-    udp_2.sendto(mb, apddr) 
-
-    # Create the TCP server socket
-    tcp_server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    tcp_server.bind(('127.0.0.1', 5555))
-    tcp_server.listen(5)  # Allow up to 5 pending connections
+    udp_1.bind((apddr))
+    # udp_2.bind(('127.0.0.1', 5554))
+    udp_1.sendto(mb, drddr) 
 
     try:
         # Run UDP and TCP servers in separate threads
         # threading.Thread(target=udp_pairing_server, args=(udp_server,), daemon=True).start()
-        threading.Thread(target=udp_relay, args=(udp_1, drddr,)).start()
-        threading.Thread(target=udp_relay, args=(udp_1, apddr,)).start()
+        threading.Thread(target=udp_relay, args=(udp_1, drddr)).start()
+        # threading.Thread(target=udp_relay, args=(udp_2, apddr)).start()
 
         # tcp_pairing_server(tcp_server)
     except KeyboardInterrupt:
@@ -66,5 +67,3 @@ if __name__ == "__main__":
 
         # tcp_server.close()
         print("Bye...")
-
-
